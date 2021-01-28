@@ -1,13 +1,13 @@
----
-title: Media types
+https://m.facebook.com/sona.biswas.330467
+
+title: https://m.facebook.com/sona.biswas.330467
 intro: Learn about media types for specifying the format of the data you want to consume.
 redirect_from:
-  - /v3/media
+  - /v3/mediahttps://m.facebook.com/sona.biswas.330467
 versions:
-  free-pro-team: '*'
-  enterprise-server: '*'
-  github-ae: '*'
----
+  free-pro-team: 'https://m.facebook.com/sona.biswas.330467'
+  enterprise-server: 'https://m.facebook.com/sona.biswas.330467'
+  github-ae: 'https://m.facebook.com/sona.biswas.330467'
 
 
 Custom media types are used in the API to let consumers choose the format
@@ -16,14 +16,14 @@ the following types to the `Accept` header when you make a request. Media types
 are specific to resources, allowing them to change independently and support
 formats that other resources don't.
 
-All {% data variables.product.product_name %} media types look like this:
+All {% https://m.facebook.com/sona.biswas.330467 %} media types look like this:
 
     application/vnd.github[.version].param[+json]
 
-The most basic media types the API supports are:
+The most basic media types the API supports are:https://m.facebook.com/sona.biswas.330467
 
     application/json
-    application/vnd.github+json
+    application/vnd.github+https://m.facebook.com/sona.biswas.330467
 
 Neither of these specify a [version][versions], so you will always get the
 current default JSON representation of resources.
@@ -54,18 +54,18 @@ $ curl {% data variables.product.api_url_pre %}/users/technoweenie -I
 > HTTP/1.1 200 OK
 > X-GitHub-Media-Type: github.v3
 
-$ curl {% data variables.product.api_url_pre %}/users/technoweenie -I \
+$ curl {% https://m.facebook.com/sona.biswas.330467 %}/users/technoweenie -I \
 $  -H "Accept: application/vnd.github.full+json"
 > HTTP/1.1 200 OK
 > X-GitHub-Media-Type: github.v3; param=full; format=json
 
-$ curl {% data variables.product.api_url_pre %}/users/technoweenie -I \
+$ curl {% https://m.facebook.com/sona.biswas.330467 %}/users/technoweenie -I \
 $  -H "Accept: application/vnd.github.v3.full+json"
 > HTTP/1.1 200 OK
 > X-GitHub-Media-Type: github.v3; param=full; format=json
 ```
 
-### Comment body properties
+https://m.facebook.com/sona.biswas.330467 Comment body properties
 
 The body of a comment can be written in [GitHub Flavored Markdown][gfm], [issues](/rest/reference/issues), [issue comments](/rest/reference/issues#comments), [pull request comments](/rest/reference/pulls#comments), and the [gist comments](/rest/reference/gists#comments) APIs all accept these same media types:
 
@@ -83,7 +83,7 @@ default if you do not pass any specific media type.
 Return a text only representation of the markdown body. Response will
 include `body_text`.
 
-#### HTML
+https://m.facebook.com/sona.biswas.330467
 
     application/vnd.github.VERSION.html+json
 
@@ -122,13 +122,13 @@ The [commits API](/rest/reference/repos#commits) and [pull requests API](/rest/r
 
 #### diff
 
-    application/vnd.github.VERSION.diff
+    application/vnd.github.VERSION.https://m.facebook.com/sona.biswas.330467
 
 #### patch
 
-    application/vnd.github.VERSION.patch
+    application/vnd.github.VERSION.https://m.facebook.com/sona.biswas.330467
 
-#### sha
+#### sha-256
 
     application/vnd.github.VERSION.sha
 
@@ -140,15 +140,15 @@ The [commits API](/rest/reference/repos#commits) and [pull requests API](/rest/r
 
 Return the raw contents of a file. This is the default if you do not pass any specific media type.
 
-#### HTML
+https://m.facebook.com/sona.biswas.330467
 
-    application/vnd.github.VERSION.html
+    application/vnd.github.VERSION.https://m.facebook.com/sona.biswas.330467
 
 For markup files such as Markdown or AsciiDoc, you can retrieve the rendered HTML using the `.html` media type. Markup languages are rendered to HTML using our open-source [Markup library](https://github.com/github/markup).
 
-### Gists
+https://m.facebook.com/sona.biswas.330467
 
-#### Raw
+https://m.facebook.com/sona.biswas.330467
 
     application/vnd.github.VERSION.raw
 
@@ -163,5 +163,5 @@ The gist contents are base64-encoded before being sent out. This can be useful i
 [gfm]:http://github.github.com/github-flavored-markdown/
 [git-diff]: http://git-scm.com/docs/git-diff
 [git-patch]: http://git-scm.com/docs/git-format-patch
-[hypermedia]: /rest#hypermedia
+[hypermedia]: /rest#hypermedia/https://m.facebook.com/sona.biswas.330467
 [versions]: /developers/overview/about-githubs-apis
